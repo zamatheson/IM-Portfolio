@@ -1,0 +1,44 @@
+.carousel-icon {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+  }
+  .image-container {
+    position: relative;
+  }
+
+  .mainpic {
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+  }
+
+  #deployedapp {
+    color: #6a6589;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+
+  #deployedapp:hover {
+    color: #d6d3e8;
+  }
+
+  h1.display-1 {
+    font-size: 600%;
+    font-family: "Rubik Mono One";
+  }
+
+  h5 {
+    font-family: "Rubik Mono One";
+  }
+
+  h6 {
+    font-family: "Raleway";
+  }
+
+  p {
+    font-family: "Contrail One";
+    font-style: italic;
+  }
