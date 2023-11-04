@@ -7,31 +7,39 @@
     <title>Isabella Matheson Portfolio</title>
     <link rel="stylesheet" href="assets/style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik-Mono-One|Contrail-One|Raleway">
+    <script src="https://kit.fontawesome.com/6dda9c8f86.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha1/dist/js/bootstrap.min.js"></script>
+
   </head>
 
-  <header class="container">
-    <nav class="row">
-      <ul class="col-sm-1">
-        <a href="#">github</a>
-      </ul>
-      <ul class="col-sm-1">
-        <a href="#">linkedin</a>
-      </ul>
-    </nav>
-  </header>
+
+<header class="container">
+<nav class="navbar navbar-light light-blue lighten-4">
+  <a class="navbar-brand" href="#"><h5>Hello, I'm</h5>
+    <h1 class="greetname">Isabella</h1></a>
+    <img class="headerflwrs" src="assets/headerflowers.png">
+  <button class="navbar-toggler toggler-example" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
+    aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"><span class="dark-blue-text"><i
+        class="fas fa-bars fa-1x"></i></span></button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="#aboutme">About Me</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://github.com/zamatheson">GitHub</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="https://www.linkedin.com/in/isabella-matheson-a7226128a/">LinkedIn</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</header>
 
   <body>
-      <h1 class="text-center display-1">Isabella Matheson</h1>
-      <div class="text-center">
-        <img class="mainpic" src="assets/profile-pic.jpeg">
-      </div>
-      <br>
-      <h6 class="text-center">Recent graduate of the University of Wisconsin- Milwaukee where I studied the theories of feminism and women's history with a focus in queer theory and gender sociology.
-        Currently I am working towards a certificate in web development with the University of Wisconsin Extended Campus. I am expected to graduate in February 2024 with mid-level skills in full stack development and a foundational understanding of computer science.
-      <br>
-      <br>
-    Find my projects below!</h6>
 
     <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade w-75 mx-auto">
       <div class="carousel-indicators">
@@ -45,8 +53,8 @@
         <div class="carousel-item active" data-bs-interval="10000">
           <div class="carousel-icon"> 
             <a href="https://bxiong34.github.io/moodvie-generator/" id="deployedapp">
-              <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-collection-play-fill" viewBox="0 0 16 16">
-                <path d="M2.5 3.5a.5.5 0 0 1 0-1h11a.5.5 0 0 1 0 1h-11zm2-2a.5.5 0 0 1 0-1h7a.5.5 0 0 1 0 1h-7zM0 13a1.5 1.5 0 0 0 1.5 1.5h13A1.5 1.5 0 0 0 16 13V6a1.5 1.5 0 0 0-1.5-1.5h-13A1.5 1.5 0 0 0 0 6v7zm6.258-6.437a.5.5 0 0 1 .507.013l4 2.5a.5.5 0 0 1 0 .848l-4 2.5A.5.5 0 0 1 6 12V7a.5.5 0 0 1 .258-.437z"/>
+              <svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" fill="currentColor" class="bi bi-film" viewBox="0 0 16 16">
+                <path d="M0 1a1 1 0 0 1 1-1h14a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V1zm4 0v6h8V1H4zm8 8H4v6h8V9zM1 1v2h2V1H1zm2 3H1v2h2V4zM1 7v2h2V7H1zm2 3H1v2h2v-2zm-2 3v2h2v-2H1zM15 1h-2v2h2V1zm-2 3v2h2V4h-2zm2 3h-2v2h2V7zm-2 3v2h2v-2h-2zm2 3h-2v2h2v-2z"/>
               </svg>
             </a>
           </div>
@@ -104,7 +112,21 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-
+  <br>
+    <img class="footerpic" src="assets/flowers-pic.jpeg">
+    <div>
+      <br>
+      <h5 class="text-center" id="aboutme">About Me</h5>
+      <img class="text-center" id="mainpic" src="assets/profile-pic.jpeg">
+      <br>
+      <p id="bio" class="text-center">
+        Recent graduate of the University of Wisconsin-MKE where I studied the theories of feminism 
+        and women's history with a focus in queer theory and gender sociology. Currently I am working 
+        towards a certificate in web development with the University of Wisconsin Extended Campus. 
+        I am expected to graduate in February 2024 with mid-level skills in full stack development
+        with a focus on front end, and a foundational understanding of computer science.
+      </p>
+    </div>
 
     <script src="assets/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
